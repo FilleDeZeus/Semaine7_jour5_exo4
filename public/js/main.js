@@ -8,7 +8,7 @@ let red1 = document.querySelectorAll(".redPurple");
 console.log(red1);
 
 //----EXERCICE 3
-let recup = document.querySelectorAll("h1.redPurple");
+let recup = document.querySelectorAll("h1.redPurple")[0].innerHTML;
 console.log(recup);
 
 //----EXERCICE 4
